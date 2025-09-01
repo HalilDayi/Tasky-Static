@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasky</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top py-3">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#home">
+          <i class="bi bi-clipboard-check-fill fs-2 me-2"></i>
+          <span class="fw-bold fs-4">Tasky</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-5 bg-primary" id="home">
+      <div class="container text-light">
+        <div class="row align-items-center">
+          <div class="col-md-6 mt-5">
+            <h1 class="display-4 fw-bold text-center mb-4">
+              Manage Your Tasks with Tasky
+            </h1>
+            <p class="lead mb-4">
+              Add your tasks, track them, and increase your productivity. Stay
+              organized with Tasky.
+            </p>
+            <a href="#" class="btn btn-dark btn-lg mt-md-2 mb-5">Get Started</a>
+          </div>
+
+          <div class="col-md-6">
+            <img
+              src="img/stock_hero.jpg"
+              class="img-fluid rounded"
+              alt="Tasky App"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5" id="features">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Tasky Features</h2>
+          <p class="text-muted">
+            Manage your tasks quickly and stay organized with Tasky.
+          </p>
+        </div>
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-md-3">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <i class="bi bi-plus-square display-4 mb-3 text-primary"></i>
+                <h5 class="card-title">Add Tasks</h5>
+                <p class="card-text">
+                  Quickly add new tasks and stay in control.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-md-3">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <i class="bi bi-bell display-4 mb-3 text-primary"></i>
+                <h5 class="card-title">Notifications</h5>
+                <p class="card-text">Track tasks and deadlines instantly.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-md-3">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <i class="bi bi-calendar display-4 mb-3 text-primary"></i>
+                <h5 class="card-title">Calendar View</h5>
+                <p class="card-text">
+                  Organize tasks by date and stay planned.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="col-md-3">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <i class="bi bi-people display-4 mb-3 text-primary"></i>
+                <h5 class="card-title">Team Collaboration</h5>
+                <p class="card-text">
+                  Share tasks with teammates and manage together.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-5 bg-primary" id="testimonials">
+      <div class="container">
+        <div class="text-center mb-5 text-light">
+          <h2 class="fw-bold">User Testimonials</h2>
+          <p class="text-light">Hear what our users say about Tasky.</p>
+        </div>
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <img
+                  src="https://randomuser.me/api/portraits/women/8.jpg"
+                  class="rounded-circle mb-3"
+                  width="100"
+                  alt="User 1"
+                />
+                <h5 class="card-title">Jane Doe</h5>
+                <p class="card-text">
+                  Thanks to Tasky, I can organize all my tasks and never forget
+                  anything!
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <img
+                  src="https://randomuser.me/api/portraits/men/18.jpg"
+                  class="rounded-circle mb-3"
+                  width="100"
+                  alt="User 2"
+                />
+                <h5 class="card-title">John Doe</h5>
+                <p class="card-text">
+                  Sharing tasks with my team is easy. Tasky improved our
+                  workflow.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <img
+                  src="https://randomuser.me/api/portraits/women/27.jpg"
+                  class="rounded-circle mb-3"
+                  width="100"
+                  alt="User 3"
+                />
+                <h5 class="card-title">Mark Smith</h5>
+                <p class="card-text">
+                  With the calendar view, I can plan my projects by date.
+                  Amazing!
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <img
+                  src="https://randomuser.me/api/portraits/men/33.jpg"
+                  class="rounded-circle mb-3"
+                  width="100"
+                  alt="User 4"
+                />
+                <h5 class="card-title">Helena Smith</h5>
+                <p class="card-text">
+                  With the calendar view, I can plan my projects by date.
+                  Amazing!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5" id="contact">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Contact Us</h2>
+          <p class="text-muted">
+            If you have any questions, fill out the form below.
+          </p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 bg-light p-4 rounded shadow">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="5"
+                  placeholder="Write your message"
+                  required
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-lg">
+                  Send
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <!-- Contact Info -->
+          <div class="col-md-6 mb-4">
+            <h5 class="fw-bold">Contact Us</h5>
+            <p class="mb-1">
+              <i class="bi bi-geo-alt-fill me-2"></i> 1234 Elm Street, New York,
+              USA
+            </p>
+            <p class="mb-1">
+              <i class="bi bi-envelope-fill me-2"></i> support@tasky.com
+            </p>
+            <p class="mb-0">
+              <i class="bi bi-telephone-fill me-2"></i> (555) 555-5555
+            </p>
+          </div>
+
+          <!-- Social Media Links -->
+          <div class="col-md-6 mb-4 text-center text-md-end">
+            <h5 class="fw-bold">Follow Us</h5>
+            <a href="#" class="text-white me-3 fs-4"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="#" class="text-white me-3 fs-4"
+              ><i class="bi bi-twitter"></i
+            ></a>
+            <a href="#" class="text-white me-3 fs-4"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="#" class="text-white fs-4"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="text-center mt-4">
+          <p class="mb-0">&copy; 2025 Tasky. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
